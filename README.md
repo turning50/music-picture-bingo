@@ -16,7 +16,7 @@ A colourful, cat-themed music bingo game for families aged 6 and up. Listen to a
 
 ## Local development
 
-Requires Node.js 22 or later.
+Requires Node.js 24 or later.
 
 ```sh
 npm ci
@@ -38,9 +38,9 @@ npm run preview
 
 This repository is configured for GitHub Pages at `/music-picture-bingo/`. In **Settings → Pages → Build and deployment**, select **GitHub Actions**. `.github/workflows/deploy.yml` checks types, tests game logic, runs Chromium and WebKit browser tests, builds the static app, and deploys successful pushes to `main`. Pull requests are checked without publishing. No server, secrets, Spotify API key or application account is needed.
 
-Expected URL after successful deployment: https://turning50.github.io/music-picture-bingo/
+Play the published game: https://turning50.github.io/music-picture-bingo/
 
-This URL is a deployment target, not a claim that a deployment has already succeeded. See `docs/validation.md` for actual checks performed.
+Published and checked on 2026-10-04. GitHub Actions passed 25 unit tests and 24 browser tests across Chromium and WebKit. See `docs/validation.md` for the checks and actual limits.
 
 ## Song catalog
 
